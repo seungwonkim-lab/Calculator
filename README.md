@@ -1,18 +1,17 @@
 # Calculator
-From Dumb calculator to ...
+#From Dumb calculator to ...
 
-print("사칙연산 계산기 Ver.1")
-print("="*20)
-count=int(input("연산하실 수의 개수를 말씀해주세요.:"))
-if count <= 1:
+    print("사칙연산 계산기 Ver.1")
+    print("="*20)
+    count=int(input("연산하실 수의 개수를 말씀해주세요.:"))
+    if count <= 1:
     print("다시 시도해주세요.")
-else:
+    else:
     nums=[]
     for i in range(count):
         reqnums=float(input("숫자를 계산할 순서에 맞게 입력해주세요: "))
         nums.append(reqnums)
     print(nums)
-
     print("1. 덧셈 / 2. 뺄셈 / 3. 곱셈 / 4. 나눗셈")
     run=int(input("원하시는 연산에 해당하는 번호를 입력해주세요.:"))
 
